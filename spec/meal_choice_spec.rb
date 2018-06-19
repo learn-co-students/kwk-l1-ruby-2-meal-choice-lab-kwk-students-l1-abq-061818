@@ -16,7 +16,7 @@ end
 describe "#breakfast" do 
 
   it 'Returns the argument interpolated in the string' do
-    expect(breakfast("pancakes").downcase).to include("pancakes")
+    expect(breakfast("pancakes")).to include("pancakes")
   end
 
     it 'Returns frosted flakes interpolated in the string when there is no argument' do
@@ -28,7 +28,7 @@ end
 describe "#lunch" do 
 
   it 'Returns the argument interpolated in the string' do
-    expect(lunch("peanut butter").downcase).to include("peanut butter")
+    expect(lunch("peanut butter")).to include("peanut butter")
   end
 
     it 'Returns grilled cheese interpolated in the string when there is no argument' do
@@ -40,7 +40,7 @@ end
 describe "#dinner" do 
 
   it 'Returns the argument interpolated in the string' do
-    expect(dinner("broccoli").downcase).to include("broccoli")
+    expect(dinner("broccoli")).to include("broccoli")
   end
 
     it 'Returns Salmon interpolated in the string when there is no argument' do
